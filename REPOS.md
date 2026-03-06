@@ -1,11 +1,11 @@
 # Bravo1058 GitHub Monitoring List
 
-**Last Updated:** March 4, 2026  
+**Last Updated:** March 5, 2026  
 **Purpose:** Daily monitoring for OpenClaw skills, Base ecosystem updates, and AI agent developments
 
 ---
 
-## 📚 Active Monitoring (7 Repos)
+## 📚 Active Monitoring (9 Repos)
 
 ### 1. **hesamsheikh/awesome-openclaw-usecases**
 - **URL:** https://github.com/hesamsheikh/awesome-openclaw-usecases
@@ -68,6 +68,27 @@
 
 ---
 
+### 8. **anthropics/skills** (NEW — Added Mar 5, 2026)
+- **URL:** https://github.com/anthropics/skills
+- **Description:** Official Anthropic skills library — 17 professional skills
+- **Key Skills:** skill-creator, brand-guidelines, mcp-builder, canvas-design, docx/pptx/xlsx generators, web-artifacts-builder, webapp-testing, claude-api
+- **What we track:** New skill releases, skill-creator updates, best practices
+- **Check for:** New skills worth installing, ClawMart product inspiration, skill architecture patterns
+- **Installed:** ✅ Full repo cloned to ~/.openclaw/anthropics-skills/
+
+---
+
+### 9. **googleworkspace/cli** (NEW — Added Mar 5, 2026)
+- **URL:** https://github.com/googleworkspace/cli
+- **Description:** Google Workspace CLI (gws) — one CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Includes 47 AI agent skills.
+- **Current:** v0.6.0 (active development, pre-v1.0)
+- **Key Skills:** gmail-triage, gmail-send, calendar-agenda, sheets-read, drive-upload, docs-write, chat-send, workflow automations (email-to-task, meeting-prep, standup-report, weekly-digest)
+- **What we track:** New API coverage, skill additions, breaking changes (pre-v1.0)
+- **Check for:** New Workspace skills for ClawMart listings, auth improvements, MCP server updates
+- **Installed:** ✅ CLI + 47 skills installed
+
+---
+
 ## ❌ Removed Repos
 
 ### openclaw/skills
@@ -80,7 +101,7 @@
 ## 🔍 Monitoring Strategy
 
 **Daily Checks (via HEARTBEAT.md):**
-1. Scan all 7 repos for:
+1. Scan all 9 repos for:
    - New releases
    - Recent commits (last 24h)
    - Open PRs with "Base" or "agent" keywords
@@ -91,6 +112,7 @@
    - AI agent revenue models
    - Uniswap v4 Base features
    - Security patches
+   - New Anthropic/Google skills worth packaging for ClawMart
 
 3. Report to Jose via Telegram:
    - New releases (same day)
@@ -108,10 +130,11 @@
 
 ## 📊 Stats
 
-- Total repos monitored: **7**
-- Security-vetted: **6** (all except openclaw/openclaw which is official)
+- Total repos monitored: **9**
+- Security-vetted: **8** (all except openclaw/openclaw which is official)
 - Base-focused: **3** (BankrBot, Virtuals, Base org)
-- AI agent-focused: **5** (awesome-usecases, awesome-skills, BankrBot, Virtuals, openclaw)
+- AI agent-focused: **7** (awesome-usecases, awesome-skills, BankrBot, Virtuals, openclaw, Anthropic, Google Workspace)
+- Skill sources: **3** (Anthropic, Google Workspace, VoltAgent)
 
 ---
 
