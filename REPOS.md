@@ -89,15 +89,6 @@
 
 ---
 
-## ❌ Removed Repos
-
-### openclaw/skills
-- **Reason:** Potential malware risk (13K+ unvetted community skills)
-- **Alternative:** Use VoltAgent/awesome-openclaw-skills (curated + vetted)
-- **Status:** Removed from daily monitoring
-
----
-
 ## 🔍 Monitoring Strategy
 
 **Daily Checks (via HEARTBEAT.md):**
