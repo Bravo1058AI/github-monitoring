@@ -42,16 +42,7 @@
 
 ---
 
-### 5. **openclaw/openclaw**
-- **URL:** https://github.com/openclaw/openclaw
-- **Description:** Core OpenClaw repository
-- **What we track:** Releases, breaking changes, new features
-- **Current:** v2026.3.2 (latest stable)
-- **Check for:** Security patches, major version releases, PDF tool updates
-
----
-
-### 6. **github.com/base** (NEW)
+### 5. **github.com/base** (NEW)
 - **URL:** https://github.com/base
 - **Description:** Official Base blockchain organization (Coinbase)
 - **Note:** base-org archived, moved to github.com/base
@@ -60,7 +51,7 @@
 
 ---
 
-### 7. **Uniswap/Uniswap** (NEW)
+### 6. **Uniswap/Uniswap** (NEW)
 - **URL:** https://github.com/Uniswap
 - **Description:** Official Uniswap Labs organization
 - **What we track:** v4 updates, AI integrations, Base DEX features
@@ -68,7 +59,7 @@
 
 ---
 
-### 8. **anthropics/skills** (NEW — Added Mar 5, 2026)
+### 7. **anthropics/skills** (NEW — Added Mar 5, 2026)
 - **URL:** https://github.com/anthropics/skills
 - **Description:** Official Anthropic skills library — 17 professional skills
 - **Key Skills:** skill-creator, brand-guidelines, mcp-builder, canvas-design, docx/pptx/xlsx generators, web-artifacts-builder, webapp-testing, claude-api
@@ -78,7 +69,7 @@
 
 ---
 
-### 9. **googleworkspace/cli** (NEW — Added Mar 5, 2026)
+### 8. **googleworkspace/cli** (NEW — Added Mar 5, 2026)
 - **URL:** https://github.com/googleworkspace/cli
 - **Description:** Google Workspace CLI (gws) — one CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Includes 47 AI agent skills.
 - **Current:** v0.6.0 (active development, pre-v1.0)
@@ -92,7 +83,7 @@
 ## 🔍 Monitoring Strategy
 
 **Daily Checks (via HEARTBEAT.md):**
-1. Scan all 9 repos for:
+1. Scan all 8 repos for:
    - New releases
    - Recent commits (last 24h)
    - Open PRs with "Base" or "agent" keywords
@@ -121,7 +112,7 @@
 
 ## 📊 Stats
 
-- Total repos monitored: **9**
+- Total repos monitored: **8**
 - Security-vetted: **8** (all except openclaw/openclaw which is official)
 - Base-focused: **3** (BankrBot, Virtuals, Base org)
 - AI agent-focused: **7** (awesome-usecases, awesome-skills, BankrBot, Virtuals, openclaw, Anthropic, Google Workspace)
